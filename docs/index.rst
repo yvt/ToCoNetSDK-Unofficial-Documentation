@@ -3,20 +3,40 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ToCoNet SDK's documentation!
-=======================================
+ToCoNet SDK 非公式マニュアル
+============================
 
-Contents:
+
+本マニュアルは、ToCoNet SDK (2014年6月版)付属のマニュアルを参考に、
+よりわかりやすいものを目指し、
+また `Read The Docs`_ で表示できるように書き直したものです。
+
+.. _Read The Docs: https://readthedocs.org/
+
+.. warning::
+  本マニュアルは公式SDKに可能な限り準拠して作成していますが、一部の内容に誤りがあったり、また
+  古い情報が含まれている可能性があります。
+  最新かつ正確な情報については、公式マニュアルを参照して下さい。
+
+.. TODO: サポートについて
+
+
+目次
+----
 
 .. toctree::
-   :maxdepth: 2
+   :includehidden:
+
+   setup
+   program
+   libtoconet/index
 
 
 
-Indices and tables
-==================
+.. Indices and tables
+   ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
 

@@ -47,9 +47,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'ToCoNet SDK'
-copyright = '2015, ToCoNet SDK Documentation Maintainer'
-author = 'ToCoNet SDK Documentation Maintainer'
+project = 'ToCoNet SDK (unofficial)'
+copyright = '2015 YVT, some rights reserved'
+author = 'YVT'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -72,6 +72,8 @@ language = 'ja'
 #today = ''
 # Else, today_fmt is used as the format for a strftime call.
 #today_fmt = '%B %d, %Y'
+
+highlight_language = 'c++'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -109,7 +111,7 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
